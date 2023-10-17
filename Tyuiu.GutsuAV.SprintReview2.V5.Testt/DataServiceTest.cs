@@ -13,6 +13,7 @@ namespace Tyuiu.GutsuAV.SprintReview2.V5.Testt
         {
             DataService ds = new DataService();
 
+
             double x = 0;
             double y = 0.8;
             bool res = ds.CheckDotInShadedArea(x, y);
